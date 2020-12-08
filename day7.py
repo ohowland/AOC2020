@@ -64,18 +64,19 @@ def main():
             
             bag_map[bag] = contained
 
+    import time
+    t1 = time.time()
     count = 0
-
-    '''
     r = process(bag_map)
-    print(r)
     for key, val in r.items():
         if val == 1:
-            count += 1 
-    '''
+            count += 1
+    t2 = time.time()
+    print(count)
+    print(t2-t1)
 
-    r = process2(bag_map)
-    print(r)
+    #r = process2(bag_map)
+    #print(r)
 
 if __name__ == '__main__':
     main()

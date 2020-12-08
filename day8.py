@@ -35,12 +35,12 @@ def process(inst):
 def main():
     bag_map = dict()
     with open("./day8.in", "r") as file:
-        seen = set()
-        acc = 0
         instructions = list()
-        for line in file:
-            x, y = line.strip().split(' ')
-            instructions.append((x, int(y)))
+        x = [x.strip().split(' ') for x in file]
+        instructions = [(a,int(b)) for a, b in x]
+        #for line in file:
+        #    x, y = line.strip().split(' ')
+        #    instructions.append((x, int(y)))
         
     x = process(instructions)
     #print(process(instructions))
