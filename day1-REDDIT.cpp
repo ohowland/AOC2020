@@ -1,3 +1,7 @@
+// THIS CODE IS NOT MINE
+// COPY AND PASTED FROM POST ON /R/ADVENTOFCODE
+// LEARNING FROM THE HOTSHOTS.
+
 #include <algorithm>
 #include <fstream>
 #include <iostream>
