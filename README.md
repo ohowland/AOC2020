@@ -1,1 +1,1 @@
-# AOC2020\n highest quality code on the internet.
+# AOC2020
